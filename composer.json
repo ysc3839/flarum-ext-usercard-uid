@@ -1,0 +1,26 @@
+{
+    "name": "ysc3839/flarum-ext-usercard-uid",
+    "description": "Show user ID in user card.",
+    "version": "0.1.0",
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Yu",
+            "email": "yurichard3839@gmail.com"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "UserCard UID",
+            "icon": {
+                "name": "info",
+                "backgroundColor": "#ddd",
+                "color": "#666"
+            }
+        }
+    }
+}
